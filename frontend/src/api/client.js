@@ -1,4 +1,4 @@
-const BASE = "/api";
+const BASE = "https://wwe-dashboard.onrender.com/api"
 
 async function req(path, opts = {}) {
   const res = await fetch(`${BASE}${path}`, opts);
